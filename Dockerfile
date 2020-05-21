@@ -1,31 +1,13 @@
 FROM node:10.15-alpine   
 
-# Install server dependencies
-RUN apk add --no-cache \
-    bash \
-    curl \
-    g++ \
-    gcc \
-    git \
-    imagemagick \
-    libc-dev \
-    libpng-dev \
-    make \
-    mysql-client \
-    nodejs \
-    nodejs-npm \
-    yarn \
-    openssh-client \
-    postgresql-libs \
-    rsync \
-    zlib-dev \
-    libzip-dev
-
 # Install node dependencies
-RUN apk --no-cache add shadow \                                                                   
+RUN apk --no-cache add shadow \   
+    curl \
+    git \
     gcc \                                                                                         
     musl-dev \                                                                                    
-    autoconf \                                                                                    
+    autoconf \
+    openssh-client \
     automake \                                                                                    
     make \                                                                                        
     libtool \                                                                                     
