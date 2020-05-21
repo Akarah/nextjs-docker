@@ -19,8 +19,7 @@ RUN apk add --no-cache \
     postgresql-libs \
     rsync \
     zlib-dev \
-    libzip-dev \ 
-    exif
+    libzip-dev
 
 # Install node dependencies
 RUN apk --no-cache add shadow \                                                                   
