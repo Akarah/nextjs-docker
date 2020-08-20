@@ -13,7 +13,8 @@ RUN apk --no-cache add shadow \
     libtool \                                                                                     
     nasm \                                                                                        
     tiff \                                                                                        
-    jpeg \                                                                                        
+    jpeg \              
+    libpng \
     zlib \                                                                                        
     zlib-dev \                                                                                    
     file \                                                                                        
