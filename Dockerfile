@@ -15,6 +15,7 @@ RUN apk --no-cache add shadow \
     tiff \                                                                                        
     jpeg \              
     libpng \
+    libpng-dev \
     zlib \                                                                                        
     zlib-dev \                                                                                    
     file \                                                                                        
